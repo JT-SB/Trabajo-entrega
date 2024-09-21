@@ -1,0 +1,70 @@
+/* formateando html */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    background-color: #592b63;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.header nav ul {
+    list-style: none; 
+}
+
+.header nav ul li {
+    margin: 10px 15px;
+    display: inline-block;   
+}
+
+.header nav ul li a {
+    color:white;
+    text-decoration: none;
+    font-weight: bold;    
+}
+
+.seccion-1{ 
+    background-color: #c2b2b4;
+    text-align: center;
+    color:white;
+    padding:150px;
+    
+}
+
+.img-perfil{
+    height:350px;
+    width:350px;
+    
+}
+
+h1{
+    font-size:medium;
+    margin-bottom:10px;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 100px;
+    margin-top:50px;
+}
+
+.texto{
+    font-size:30px;
+    margin-top:20px;
+    
+}
+
+#iconos{
+    font-size: 100px; 
+}
